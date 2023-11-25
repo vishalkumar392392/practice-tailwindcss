@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Nunito Sans Variable", sans-serif;
+  }
+}
+
+@layer utilities {
+  .btn-press-anim {
+    @apply transition active:scale-75;
+  }
+}
